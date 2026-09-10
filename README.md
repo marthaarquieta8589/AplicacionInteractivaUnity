@@ -1,21 +1,18 @@
 # Aplicación Interactiva Unity
 
-Proyecto desarrollado para practicar la creación de una interfaz responsiva en Unity.
+Proyecto de la unidad 2 enfocado en la creación de una escena adaptable a diferentes tamaños de pantalla.
 
 ## Elementos incluidos
 
-- Un título
-- Tres botones
-- Cuatro iconos
-- Tres enlaces en el costado izquierdo
-- Tres enlaces en el costado derecho
-- Adaptación a diferentes tamaños de pantalla
+- Escena principal
+- Canvas responsivo
+- Tres botones de navegación
+- Puntos de anclaje
+- Adaptación a diferentes resoluciones
 
-## Funcionamiento
+## Archivo principal
 
-La interfaz utiliza CanvasScaler con Scale With Screen Size y anclajes relativos para adaptarse a diferentes resoluciones.
-
-Los enlaces utilizan Application.OpenURL() para abrir sitios web.
+Assets/Scripts/EscenaResponsiva.cs
 
 ## Autor
 
